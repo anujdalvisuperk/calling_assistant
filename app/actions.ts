@@ -16,8 +16,8 @@ export async function sendWatiMessage(phoneNumber: string) {
 
   // 3. The exact body format WATI expects
   const payload = {
-    template_name: 'webinar_final_reminder', // CHANGE THIS to your actual template name in WATI
-    broadcast_name: 'webinar_final_reminder', // CHANGE THIS to match above
+    template_name: 'after_sales_awarness_calling', // CHANGE THIS to your actual template name in WATI
+    broadcast_name: 'after_sales_awarness_calling', // CHANGE THIS to match above
     channel_number: '+15558061622', // CHANGE THIS to your WATI phone number (e.g. 919876543210)
   };
 
